@@ -1,0 +1,43 @@
+.add-new{
+	text-align: right;
+	background: #f0f0f5;
+	margin-left: 20px;
+	margin-right: 20px;
+	position: static;
+	margin-top: 300px;
+}
+
+.headr-row{
+	height: 450px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: left;
+}
+.data{
+	padding: 10px;
+}
+.save-button-row{
+	background: #b3d9ff;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 0px;
+	
+}
+.cont-class{
+	border: solid;
+	width: 650px;
+	overflow: scroll;
+}
+.head {
+	border-style: outset;
+	
+	margin-left: -20px;
+	margin-right: -20px;
+	
+}
+.ans-class{
+	margin-left: 20px;
+}
+.text-row{
+	padding: 5px;
+}
