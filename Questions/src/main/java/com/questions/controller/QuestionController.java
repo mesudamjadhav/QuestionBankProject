@@ -80,9 +80,9 @@ public class QuestionController {
 	}
 	
 	@RequestMapping(value = "saveQuestions",method = RequestMethod.POST)
-	public ModelAndView saveQuestions(@RequestBody List<QuestionDTO> questionDTOs, ModelAndView modelAndView){
+	public String saveQuestions(@RequestBody List<QuestionDTO> questionDTOs, ModelAndView modelAndView){
 		questionService.saveQuestions(questionDTOs);
-		return modelAndView;
+		return "Data Saved Successfully..";
 	}
 	
 	

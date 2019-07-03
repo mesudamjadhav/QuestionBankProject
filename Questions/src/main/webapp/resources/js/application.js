@@ -162,7 +162,7 @@ function getAllElementsFromDiv() {
 		data.push(questionData);
 	}
 	var saveCallback = function(response) {
-
+		alert(response);
 		console.log(response);
 	};
 	data = JSON.stringify(data);
